@@ -1,0 +1,43 @@
+{% load static %}
+<html>
+  <head>
+    <title>Glaucoma Test Result</title>
+    <style>
+      /* Add some CSS styles to make the page look nice */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      .result {
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 20px;
+        padding: 2%;
+        opacity: 0.8;
+      }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Glaucoma Test Result</h1>
+    <div class="result" style="background-image: linear-gradient(180deg, rgb(149, 239, 212), rgb(72, 153, 164));">
+      <!-- Use JavaScript to determine if glaucoma is detected -->
+      <!-- <script>
+        var result = "No glaucoma detected";
+        var isGlaucomaDetected = false; // change this value to true to show "Glaucoma detected"
+
+        if (isGlaucomaDetected) {
+          result = "Glaucoma detected";
+        }
+
+        document.write(result);
+      </script> -->
+      <h2 style="color: rgb(31, 24, 17);">Result</h2>
+      <button type="submit" class="btn btn-danger" value = ""><a href = "/" style = "color: white;">Back to Home</a></button>
+    </div>
+  </body>
+</html>
