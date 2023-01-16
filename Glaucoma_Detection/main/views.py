@@ -6,7 +6,6 @@ import datetime as dt
 
 # Create your views here.
 def index(request):
-    global x
     if request.method == 'POST':
         img = request.FILES.get('image')
         # rename img file

@@ -9,3 +9,4 @@ class Image(models.Model):
     date = models.DateTimeField(default=datetime.now, blank=True)
     def __str__(self):
         return self.id
+
